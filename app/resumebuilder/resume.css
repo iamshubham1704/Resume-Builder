@@ -1,0 +1,183 @@
+/* ResumeBuilder.css */
+.resume-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-section {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.date-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.form-card {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+
+.add-button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.add-button:hover {
+    background: #45a049;
+}
+
+.remove-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.remove-button:hover {
+    background: #cc0000;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background: #1976D2;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .resume-form {
+        padding: 10px;
+    }
+
+    .form-section {
+        padding: 15px;
+    }
+
+    .date-inputs {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Add to resume.css */
+.download-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.preview-section {
+    margin-bottom: 20px;
+}
+
+.preview-section h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.preview-content {
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #2196F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background: #1976D2;
+}
+
+.error-message {
+    color: #d32f2f;
+    background: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.resume-builder {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
