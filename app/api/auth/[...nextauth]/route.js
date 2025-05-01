@@ -1,8 +1,8 @@
 import NextAuth from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 import bcrypt from 'bcryptjs';
-import connectDB from '/Resume-builder/resume_builder/app/lib/mongodb';
-import User from '/Resume-builder/resume_builder/app/models/User';
+import User from '@/app/models/User';
+import connectDB from '@/app/lib/mongodb';
 
 export const authOptions = {
   providers: [
